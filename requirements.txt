@@ -1,0 +1,7 @@
+# This is a PIP requirements file. You could also replace this with a conda
+# environment file if you prefer. Tango's Beaker executor will use this to recreate
+# your Python environment when it runs on Beaker.
+
+# Make sure Tango is one of your requirements!
+git+https://github.com/allenai/tango#egg=ai2-tango[all]
+torch
